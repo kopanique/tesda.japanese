@@ -1,0 +1,9 @@
+.carousel-inner > .carousel-item > img {
+  max-height: 500px;
+  width: auto;
+  object-fit: cover !important;
+}
+
+.home-sub-menu {
+  padding: 20px;
+}
