@@ -1,9 +1,22 @@
 .carousel-inner > .carousel-item > img {
-  max-height: 500px;
+  max-height: 1000px;
   width: auto;
-  object-fit: cover !important;
+  /* object-fit: cover !important; */
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .home-sub-menu {
   padding: 20px;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+}
+
+.card-body > .btn-primary:hover {
+  background-color: red;
 }

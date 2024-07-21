@@ -1,1 +1,234 @@
-<p>audio-books works!</p>
+<!-- <iframe src="https://audiomack.com/embed/kopanique/song/dj-pham-hanni" scrolling="no" width="100%" height="252" frameborder="0" title="DJ Pham Hanni"></iframe>
+<hr>
+<iframe src="https://audiomack.com/embed/kopanique/album/japanese-level-01" scrolling="no" width="100%" height="500" frameborder="0" title="Japanese - Level 01"></iframe> -->
+
+<main>
+  <div class="section-header">
+    <section class="py-5 text-center black-background">
+      <div class="row py-lg-5">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h1 class="fw-light">Japanese Audio Books</h1>
+          <p class="lead text-body-secondary"><i>"Immerse yourself in the world of Japanese with audiobooks! Listening to native speakers can dramatically improve your pronunciation, comprehension, and overall fluency. Whether you're a beginner or advanced learner, there's a Japanese audiobook to suit your level. Tune in, relax, and let the language wash over you!"</i></p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/assets/audio-book/thumbnails/audiobook-thumbnail-01.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Title: Ultimate Getting Started with Japanese 1.1</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <!-- <button type="button" class="btn btn-sm btn-outline-success" data-toggle="modal" data-target="#exampleModal"> Start Listening</button> -->
+                  <button type="button" class="btn btn-sm btn-outline-success" (click)="openModal('audiobook-001')"> Start Listening</button>
+                </div>
+                <small class="text-body-secondary">100 audios</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal bd-example-modal-xl" tabindex="-1" role="dialog" [ngStyle]="{'display':displayAudiobook001}">
+          <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                    <h4 class="modal-title">Title: Ultimate Getting Started with Japanese 1.1</h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                  <iframe src="https://audiomack.com/embed/kopanique/album/ultimate-getting-started-with-japanese" scrolling="no" width="100%" height="500" frameborder="0" title="Ultimate Getting Started with Japanese 1.1"></iframe>
+                </p>
+              </div>
+              <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger" (click)="onCloseHandled('audiobook-001')" >Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/assets/audio-book/thumbnails/audiobook-thumbnail-01.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Title: Ultimate Getting Started with Japanese 1.2</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success"> Start Listening</button>
+                </div>
+                <small class="text-body-secondary">9 audios</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/assets/audio-book/thumbnails/audiobook-thumbnail-05.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Title: Ultimate Getting Started - Gengo Appendices 1.1</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success"> Start Listening</button>
+                </div>
+                <small class="text-body-secondary">10 audios</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/assets/audio-book/thumbnails/audiobook-thumbnail-05.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Title: Ultimate Getting Started - Gengo Appendices 1.2</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success"> Start Listening</button>
+                </div>
+                <small class="text-body-secondary">12 audios</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/assets/audio-book/thumbnails/audiobook-thumbnail-05.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Title: Ultimate Getting Started - Gengo Japanese</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success"> Start Listening</button>
+                </div>
+                <small class="text-body-secondary">60 audios</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/assets/audio-book/thumbnails/audiobook-thumbnail-05.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Title: Ultimate Getting Started - Japanese Conjugation</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success"> Start Listening</button>
+                </div>
+                <small class="text-body-secondary">10 audios</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/assets/audio-book/thumbnails/audiobook-thumbnail-02.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Title: Japanese Level 01</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success"> Start Listening</button>
+                </div>
+                <small class="text-body-secondary">27 audios</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/assets/audio-book/thumbnails/audiobook-thumbnail-03.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Title: Japanese Level 02</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success"> Start Listening</button>
+                </div>
+                <small class="text-body-secondary">27 audios</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/assets/audio-book/thumbnails/audiobook-thumbnail-04.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Title: Japanese Level 03</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success"> Start Listening</button>
+                </div>
+                <small class="text-body-secondary">49 audios</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/assets/audio-book/thumbnails/audiobook-thumbnail-06.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Title: Conversational Phrases Japanese Level 1 - Absolute Beginner</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success"> Start Listening</button>
+                </div>
+                <small class="text-body-secondary">26 audios</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/assets/audio-book/thumbnails/audiobook-thumbnail-07.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Title: Japanese Absolute Beginner 2 - Full Lessons</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success"> Start Listening</button>
+                </div>
+                <small class="text-body-secondary">27 audios</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/assets/audio-book/thumbnails/audiobook-thumbnail-07.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Title: Japanese Absolute Beginner 2 - Individual Lesson Dialogs</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success"> Start Listening</button>
+                </div>
+                <small class="text-body-secondary">25 audios</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/assets/audio-book/thumbnails/audiobook-thumbnail-07.png" alt="" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Title: Japanese Absolute Beginner 2 - Individual Lesson Reviews</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success"> Start Listening</button>
+                </div>
+                <small class="text-body-secondary">25 audios</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL START -->
+
+
+
+
+</main>
