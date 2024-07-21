@@ -1,0 +1,56 @@
+<main>
+  <div class="section-header">
+    <section class="py-5 text-center black-background">
+      <div class="row py-lg-5">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h1 class="fw-light">Japanese Audio Books</h1>
+          <p class="lead text-body-secondary"><i>"Immerse yourself in the world of Japanese with audiobooks! Listening to native speakers can dramatically improve your pronunciation, comprehension, and overall fluency. Whether you're a beginner or advanced learner, there's a Japanese audiobook to suit your level. Tune in, relax, and let the language wash over you!"</i></p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+        <div *ngFor="let audiobook of audiobookList">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src='{{ audiobook.imgLocation }}' alt="" class="card-img-top">
+              <div class="card-body">
+                <p class="card-text">Title: {{ audiobook.title }}</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-success" (click)="openModal(audiobook.assignedConstructor)"> Start Listening</button>
+                  </div>
+                  <small class="text-body-secondary">{{ audiobook.audioCounts }} audios</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="modal bd-example-modal-xl" tabindex="-1" role="dialog" [ngStyle]="{'display':audiobook.assignedDisplay}">
+            <div class="modal-dialog modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                      <h4 class="modal-title">Title: {{ audiobook.title }}</h4>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    <iframe [src]="audiobook.iFrameSrc" scrolling="no" width="100%" height="500" frameborder="0" title="audiobook.title"></iframe>
+                  </p>
+                </div>
+                <div class="modal-footer">
+                      <button type="button" class="btn btn-outline-danger" (click)="onCloseHandled(audiobook.assignedConstructor)" >Close</button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</main>

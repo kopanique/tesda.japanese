@@ -1,0 +1,26 @@
+.section-header {
+  background-image: url("/assets/audio-book/audio-books-header.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+.text-body-secondary > i {
+  color: white;
+}
+
+.black-background {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card-img-top {
+  max-height: 300px;
+  min-height: 225px;
+  width: 100%;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+}
