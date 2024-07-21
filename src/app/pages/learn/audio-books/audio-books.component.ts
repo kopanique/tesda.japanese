@@ -237,7 +237,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Ultimate Getting Started with Japanese 1.1",
       assignedConstructor: "audiobook-001",
       assignedDisplay: this.displayAudiobook001,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-01.png",
+      img: "audiobook-thumbnail-01.png",
       audioCounts: "100",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/ultimate-getting-started-with-japanese"
     },
@@ -245,7 +245,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Ultimate Getting Started with Japanese 1.2",
       assignedConstructor: "audiobook-002",
       assignedDisplay: this.displayAudiobook002,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-01.png",
+      img: "audiobook-thumbnail-01.png",
       audioCounts: "9",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/ultimate-getting-started-with-japanese"
     },
@@ -253,7 +253,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Ultimate Getting Started - Gengo Appendices 1.1",
       assignedConstructor: "audiobook-003",
       assignedDisplay: this.displayAudiobook003,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-05.png",
+      img: "audiobook-thumbnail-05.png",
       audioCounts: "10",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/ultimate-getting-started-with-japanese"
     },
@@ -261,7 +261,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Ultimate Getting Started - Gengo Appendices 1.2",
       assignedConstructor: "audiobook-004",
       assignedDisplay: this.displayAudiobook004,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-05.png",
+      img: "audiobook-thumbnail-05.png",
       audioCounts: "12",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/ultimate-getting-started-with-japanese"
     },
@@ -269,7 +269,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Ultimate Getting Started - Gengo Japanese",
       assignedConstructor: "audiobook-005",
       assignedDisplay: this.displayAudiobook005,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-05.png",
+      img: "audiobook-thumbnail-05.png",
       audioCounts: "60",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/ultimate-getting-started-with-japanese"
     },
@@ -277,7 +277,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Ultimate Getting Started - Japanese Conjugation",
       assignedConstructor: "audiobook-006",
       assignedDisplay: this.displayAudiobook006,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-05.png",
+      img: "audiobook-thumbnail-05.png",
       audioCounts: "10",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/ultimate-getting-started-with-japanese"
     },
@@ -285,7 +285,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Japanese Level 01",
       assignedConstructor: "audiobook-007",
       assignedDisplay: this.displayAudiobook007,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-02.png",
+      img: "audiobook-thumbnail-02.png",
       audioCounts: "27",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/ultimate-getting-started-with-japanese"
     },
@@ -293,7 +293,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Japanese Level 02",
       assignedConstructor: "audiobook-008",
       assignedDisplay: this.displayAudiobook008,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-03.png",
+      img: "audiobook-thumbnail-03.png",
       audioCounts: "27",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/ultimate-getting-started-with-japanese"
     },
@@ -301,7 +301,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Japanese Level 03",
       assignedConstructor: "audiobook-009",
       assignedDisplay: this.displayAudiobook009,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-04.png",
+      img: "audiobook-thumbnail-04.png",
       audioCounts: "49",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/ultimate-getting-started-with-japanese"
     },
@@ -309,7 +309,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Conversational Phrases Japanese Level 1 - Absolute Beginner",
       assignedConstructor: "audiobook-010",
       assignedDisplay: this.displayAudiobook010,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-06.png",
+      img: "audiobook-thumbnail-06.png",
       audioCounts: "26",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/ultimate-getting-started-with-japanese"
     },
@@ -317,7 +317,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Japanese Absolute Beginner 2 - Full Lessons",
       assignedConstructor: "audiobook-011",
       assignedDisplay: this.displayAudiobook011,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-07.png",
+      img: "audiobook-thumbnail-07.png",
       audioCounts: "27",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/ultimate-getting-started-with-japanese"
     },
@@ -325,7 +325,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Japanese Absolute Beginner 2 - Individual Lesson Dialogs",
       assignedConstructor: "audiobook-012",
       assignedDisplay: this.displayAudiobook012,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-07.png",
+      img: "audiobook-thumbnail-07.png",
       audioCounts: "25",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/ultimate-getting-started-with-japanese"
     },
@@ -333,7 +333,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Japanese Absolute Beginner 2 - Individual Lesson Reviews",
       assignedConstructor: "audiobook-013",
       assignedDisplay: this.displayAudiobook013,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-07.png",
+      img: "audiobook-thumbnail-07.png",
       audioCounts: "25",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/ultimate-getting-started-with-japanese"
     },
@@ -341,7 +341,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Japanese Level 2 - Absolute Beginner Japanese Volume 2",
       assignedConstructor: "audiobook-014",
       assignedDisplay: this.displayAudiobook014,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-07.png",
+      img: "audiobook-thumbnail-07.png",
       audioCounts: "29",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/japanese-level-2-absolute-beginner-japanese-volume-2"
     },
@@ -349,7 +349,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Japanese Level 2 - Absolute Beginner Japanese Volume 3",
       assignedConstructor: "audiobook-015",
       assignedDisplay: this.displayAudiobook015,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-07.png",
+      img: "audiobook-thumbnail-07.png",
       audioCounts: "76",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/japanese-level-2-absolute-beginner-japanese-volume-3"
     },
@@ -357,7 +357,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Japanese Level 2 - Absolute Beginner Japanese Volume 4",
       assignedConstructor: "audiobook-016",
       assignedDisplay: this.displayAudiobook016,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-07.png",
+      img: "audiobook-thumbnail-07.png",
       audioCounts: "25",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/japanese-level-2-absolute-beginner-japanese-volume-4"
     },
@@ -365,7 +365,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Japanese Level 4 - Beginner Japanese Volume 1",
       assignedConstructor: "audiobook-017",
       assignedDisplay: this.displayAudiobook017,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-08.png",
+      img: "audiobook-thumbnail-08.png",
       audioCounts: "54",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/japanese-level-4-beginner-japanese-volume-1-2"
     },
@@ -373,7 +373,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Japanese Level 4 - Beginner Japanese Volume 2",
       assignedConstructor: "audiobook-018",
       assignedDisplay: this.displayAudiobook018,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-08.png",
+      img: "audiobook-thumbnail-08.png",
       audioCounts: "27",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/japanese-level-4-beginner-japanese-volume-2"
     },
@@ -381,7 +381,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Japanese Level 5 - Upper Beginner Japanese Volume 1",
       assignedConstructor: "audiobook-019",
       assignedDisplay: this.displayAudiobook019,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-09.png",
+      img: "audiobook-thumbnail-09.png",
       audioCounts: "29",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/japanese-level-5-upper-beginner-japanese-volume-1"
     },
@@ -389,7 +389,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Japanese Level 6 - Lower Intermediate Japanese Volume 2",
       assignedConstructor: "audiobook-020",
       assignedDisplay: this.displayAudiobook020,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-10.png",
+      img: "audiobook-thumbnail-10.png",
       audioCounts: "28",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/japanese-level-6-lower-intermediate-japanese-volume-2"
     },
@@ -397,7 +397,7 @@ export class AudioBooksComponent implements OnInit {
       title: "Japanese Level 6 - Lower Intermediate Japanese Volume 3",
       assignedConstructor: "audiobook-021",
       assignedDisplay: this.displayAudiobook021,
-      imgLocation: "/assets/audio-book/thumbnails/audiobook-thumbnail-10.png",
+      img: "audiobook-thumbnail-10.png",
       audioCounts: "76",
       iFrameSrc: "https://audiomack.com/embed/kopanique/album/japanese-level-6-lower-intermediate-japanese-volume-3"
     }
